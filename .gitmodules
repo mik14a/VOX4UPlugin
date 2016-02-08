@@ -1,0 +1,3 @@
+[submodule "Plugins/VOX4U"]
+	path = Plugins/VOX4U
+	url = https://github.com/mik14a/VOX4U.git

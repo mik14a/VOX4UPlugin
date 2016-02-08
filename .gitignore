@@ -1,0 +1,13 @@
+# Ignore outputs
+Binaries/
+Build/
+
+# Ignore intermediate folders
+Intermediate/
+Saved/
+
+# Ignore Visual Studio Solusion and Temporary files
+.vs
+*.sln
+*.sdf
+*.opendb
