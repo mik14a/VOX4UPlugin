@@ -10,4 +10,4 @@ Saved/
 .vs
 *.sln
 *.sdf
-*.opendb
+*.VC.db
