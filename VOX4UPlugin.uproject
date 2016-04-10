@@ -2,5 +2,15 @@
 	"FileVersion": 3,
 	"EngineAssociation": "4.11",
 	"Category": "",
-	"Description": "VOX4U Template"
+	"Description": "VOX4U Template",
+	"Modules": [
+		{
+			"Name": "VOX4UPlugin",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"Engine"
+			]
+		}
+	]
 }
