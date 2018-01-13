@@ -5,21 +5,10 @@ using System.Collections.Generic;
 
 public class VOX4UPluginTarget : TargetRules
 {
-	public VOX4UPluginTarget(TargetInfo Target)
+	public VOX4UPluginTarget(TargetInfo Target) : base(Target)
 	{
 		Type = TargetType.Game;
-	}
 
-	//
-	// TargetRules interface.
-	//
-
-	public override void SetupBinaries(
-		TargetInfo Target,
-		ref List<UEBuildBinaryConfiguration> OutBuildBinaryConfigurations,
-		ref List<string> OutExtraModuleNames
-		)
-	{
-		OutExtraModuleNames.AddRange( new string[] { "VOX4UPlugin" } );
+		ExtraModuleNames.AddRange( new string[] { "VOX4UPlugin" } );
 	}
 }
