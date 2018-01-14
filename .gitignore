@@ -8,6 +8,7 @@ Saved/
 
 # Ignore Visual Studio Solusion and Temporary files
 .vs
+.vscode
 *.sln
 *.sdf
 *.VC.db
