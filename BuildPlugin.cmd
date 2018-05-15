@@ -1,6 +1,6 @@
 set CD=%~dp0
-set UE4VERSION=UE_4.18
-set UE4PATCHVERSION=3
+set UE4VERSION=UE_4.19
+set UE4PATCHVERSION=2
 set RunUAT="C:\Program Files\Epic Games\%UE4VERSION%\Engine\Build\BatchFiles\RunUAT.bat"
 call %RunUAT% BuildPlugin -Plugin="%CD%Plugins\VOX4U\VOX4U.uplugin" -Package="%CD%Intermediate\VOX4U" -Rocket
 del VOX4U_%UE4VERSION%.%UE4PATCHVERSION%.7z 2> NUL
