@@ -8,6 +8,7 @@ public class VOX4UPluginEditorTarget : TargetRules
 	public VOX4UPluginEditorTarget(TargetInfo Target) : base(Target)
 	{
 		Type = TargetType.Editor;
+		DefaultBuildSettings = BuildSettingsVersion.V2;
 
 		ExtraModuleNames.AddRange( new string[] { "VOX4UPlugin" } );
 	}

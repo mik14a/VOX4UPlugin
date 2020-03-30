@@ -8,6 +8,7 @@ public class VOX4UPluginTarget : TargetRules
 	public VOX4UPluginTarget(TargetInfo Target) : base(Target)
 	{
 		Type = TargetType.Game;
+		DefaultBuildSettings = BuildSettingsVersion.V2;
 
 		ExtraModuleNames.AddRange( new string[] { "VOX4UPlugin" } );
 	}
