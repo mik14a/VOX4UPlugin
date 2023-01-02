@@ -7,11 +7,15 @@ Intermediate/
 Saved/
 
 # Ignore Visual Studio Solusion and Temporary files
-.vs
-.vscode
+.vs/
+JSON/
+.vscode/
 *.sln
 *.sdf
 *.VC.db
 *.opendb
 *.code-workspace
 .ignore
+
+# Auto generate by UBT
+.vsconfig
